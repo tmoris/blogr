@@ -1,0 +1,27 @@
+
+# .gitignore
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+venv/
+*.log
+
+*.sqlite
+
+# Flask file uploads
+app/static/uploads/
+
+# Elasticsearch data
+elasticsearch/data/
+
+.env
+# Images
+img/
+# Instances
+instance/
+
+# migrations
+migrations/
