@@ -3,6 +3,8 @@ from flask import current_app
 from datatime import datetime
 from itsdangerous.url_safe import 
 URLSafeTimedSerializer as Serializer
+from flask_sqlalchemy import SQLAlchemy
+db = SQLAlchemy()
 
 class User(db.Model, UserM:ixin):
 	id = db.Column(db.Intenger, primary_key=True)
